@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Forget Me Not</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="icon" href="images/favicon.jpg">
+	<link href='http://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css'>
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="js/application.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+</head>
+
+<body>
+
+	<div class="container main">
+		<div class="row">
+			<div class="col-md-7">
+				<h2>Forget Me Not</h2>
+
+<!-- INPUT FIELD -->
+				<div class="input-group">
+					<input type="text" class="form-control" placeholder="Add item here..." id="entry">
+					<span class="input-group-btn">
+					<button class="btn btn-info" type="submit" id="add">
+						Add
+					</button>
+			      	</span>
+		      	</div><!-- /input-group -->
+		      	<div class="alert alert-danger" role="alert">
+		      		<strong>Uh Oh!</strong> You must enter an item before trying to add it.
+		      	</div>
+
+<!-- SHOPPING LIST -->
+				<ul class="list">
+					<li class="active normal">
+						<div class="handle"></div>
+						<div class="box">
+							<img src="images/check.png" />
+						</div>
+						<span class="text">milk</span>
+						    <input type="text" class="edit">
+						<div class="delete">
+							<img src="images/delete.png" />
+						</div>
+					</li>
+					<li class="active normal">
+						<div class="handle"></div>
+						<div class="box">
+							<img src="images/check.png" />
+						</div>
+						<span class="text">apples</span>
+						    <input type="text" class="edit">
+						<div class="delete">
+							<img src="images/delete.png" />
+						</div>
+					</li>
+					<li class="active normal">
+						<div class="handle"></div>
+						<div class="box">
+							<img src="images/check.png" />
+						</div>
+						<span class="text">bread</span>
+						    <input type="text" class="edit">
+						<div class="delete">
+							<img src="images/delete.png" />
+						</div>
+					</li>
+					<li class="erased normal">
+						<div class="handle"></div>
+						<div class="box">
+							<img src="images/check.png" />
+						</div>
+						<span>cheese</span>
+						    <input type="text" class="edit">
+						<div class="delete">
+							<img src="images/delete.png" />
+						</div>
+					</li>
+					<li class="erased normal">
+						<div class="handle"></div>
+						<div class="box">
+							<img src="images/check.png" />
+						</div>
+						<span>beer</span>
+						    <input type="text" class="edit">
+						<div class="delete">
+							<img src="images/delete.png" />
+						</div>
+					</li>
+				</ul>
+			</div>
+	<div>
+	<footer>
+		<p>© 2015 Ryan Sahadeo | Zephyr Unlimited L.L.C.</p>
+	</footer>
+	</div>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
